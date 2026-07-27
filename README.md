@@ -1,6 +1,6 @@
 # atompad
 
-python control of the presonus atom pad controller (the original, not the SQ): rgb pad leds, per-pad pressure, endless knobs, all buttons. no daw needed.
+Python control of the PreSonus ATOM Controller (the original, not the SQ): rgb pad leds, per-pad pressure, endless knobs, all buttons. no daw needed.
 
 ```
 pip install atompad
@@ -29,7 +29,7 @@ see `examples/` for an interactive playground (pressure painting, animations), a
 
 ## per-pad pressure (one-time device setting)
 
-out of the box the pads send channel pressure (one value for all held pads). for true per-pad pressure: hold the small **Setup** button (pads turn into a settings menu), tap **pad 7** (row 2 = pressure type, 7 = polyphonic aftertouch), release. the setting survives power cycles.
+out of the box the pads send channel pressure (one value for all held pads). for true per-pad pressure: hold the small **Setup** button on the right side (pads turn into a settings menu), tap **pad 7** (row 2 = pressure type, 7 = polyphonic aftertouch), release. the setting survives power cycles.
 
 ## protocol notes (reverse-engineered, fw 3.00)
 
